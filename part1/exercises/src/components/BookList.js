@@ -1,5 +1,5 @@
 export default function BookList() {
-   let pageTitle = "shrug";
+   let pageTitle = "My booklist";
    let book1 = "http://subs.booklistonline.com/custompages/Booklist/booklist_authenticator.aspx?publication=booklinks&edition_date=2021-11-02";
    let book2 = "http://subs.booklistonline.com/custompages/Booklist/booklist_authenticator.aspx?publication=booklinks&edition_date=2022-03-15";
    let book3 = "http://subs.booklistonline.com/custompages/Booklist/booklist_authenticator.aspx?publication=booklinks&edition_date=2021-01-26";

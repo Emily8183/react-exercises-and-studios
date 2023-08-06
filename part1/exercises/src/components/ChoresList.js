@@ -1,3 +1,10 @@
 export default function ChoresList () {
-   return <p>No content is here!</p>;
+   let choreTitle = "My Chores List";
+
+   return (
+   <>
+   <h3>{choreTitle}</h3>
+   <p>Do my laundry!</p>   
+   </>
+   )
 }
