@@ -1,17 +1,21 @@
+import logo from './logo.svg';
 import './App.css';
-import BoardAssignment from './components/BoardAssignment';
-import StatusChange from './components/StatusChange';
-import RecipeDisplay from './components/Recipe'; 
+import RecipeDescription from './Components/Description';
+import React from 'react';
+import RecipeIngredients from './Components/Ingredients';
+import RecipePhoto from './Components/Photo';
 
 function App() {
   return (
-    <div className="App">
-      <RecipeDisplay />
-      <div className="recipePhotoBlock">
-        <BoardAssignment />
-        <StatusChange />
+      <div className = "App">
+        <div className = 'recipePhotoBlock'>
+          <RecipePhoto />
+         <div>
+          <RecipeDescription />
+          <RecipeIngredients />
+         </div>
+        </div>
       </div>
-    </div>
   );
 }
 
