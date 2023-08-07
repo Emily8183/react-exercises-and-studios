@@ -1,9 +1,12 @@
 import './styles.css';
 
 function Button() {
+   const onLearnMore = () => {
+      alert("Slipsh Splash");
+   }
 
    return ( 
-         <button>
+         <button onClick = {onLearnMore}>
             Learn More
          </button>
    );
